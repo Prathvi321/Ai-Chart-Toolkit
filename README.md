@@ -35,7 +35,28 @@ pip install -e .
 
 ---
 
-## 4 Ways to Use This Tool
+## ⚡ 1-Click Local AI Studio (Qwen 2.5 Offline Assistant)
+
+You can interact with a local AI model that has native tool access to `ai-chart-toolkit` with **zero setup and zero API keys**:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Prathvi321/Ai-Chart-Toolkit.git
+   cd Ai-Chart-Toolkit
+   ```
+2. Double-click **`run.bat`** (or execute `.\run.ps1` in PowerShell).
+
+The runner automatically:
+- Installs dependencies & `ai-chart-toolkit`
+- Verifies / sets up Ollama
+- Downloads **Qwen 2.5 (3B / 1.9GB)** local model weights
+- Launches the interactive Neumorphic chat studio and opens **`http://localhost:8501`** in your browser
+
+You can chat normally with Qwen or ask it to generate visual architecture trees, flowcharts, gauges, and donut charts.
+
+---
+
+## 4 Ways to Use This Tool in Code and Agents
 
 ### 1. Terminal / CLI for Autonomous Agents
 ```bash
