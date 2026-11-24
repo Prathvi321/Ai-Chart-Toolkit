@@ -5,7 +5,7 @@ Supports flowcharts, hierarchy architecture trees, donut charts, pie charts,
 concentric telemetry rings, and precision radial gauges.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from .engine import (
     generate_flowchart,

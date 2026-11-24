@@ -36,7 +36,7 @@ def handle_message(msg: dict) -> dict:
                 },
                 "serverInfo": {
                     "name": "ai-chart-toolkit-mcp",
-                    "version": "1.0.0"
+                    "version": "1.0.1"
                 }
             }
         }

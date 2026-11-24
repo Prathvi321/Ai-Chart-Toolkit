@@ -31,7 +31,7 @@ class ChartHTTPHandler(BaseHTTPRequestHandler):
         if self.path in ["/", "/health"]:
             self._send_json(200, {
                 "service": "ai-chart-toolkit-api",
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "status": "healthy",
                 "endpoints": {
                     "POST /render": "Execute chart generation with JSON payload",

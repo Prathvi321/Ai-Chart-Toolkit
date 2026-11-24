@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ai-chart-toolkit",
-    version="1.0.0",
+    version="1.0.1",
     description="Universal Blueprint & Visual Diagram Generator for AI Agents, Local LLMs, and Cloud APIs.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
