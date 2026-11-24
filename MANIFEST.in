@@ -1,0 +1,7 @@
+include README.md
+include SKILL.md
+include pyproject.toml
+recursive-include ai_chart_toolkit/assets *
+recursive-include .skills *
+recursive-include examples *
+recursive-include sample *

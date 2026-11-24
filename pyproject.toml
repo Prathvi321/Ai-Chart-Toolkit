@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-chart-toolkit"
+version = "1.0.0"
+description = "Universal Blueprint & Visual Diagram Generator for AI Agents, Local LLMs, and Cloud APIs."
+readme = "README.md"
+authors = [{ name = "Prathvi321" }]
+requires-python = ">=3.8"
+keywords = [
+    "ai",
+    "agents",
+    "mcp",
+    "charts",
+    "diagrams",
+    "flowchart",
+    "visualization",
+    "pillow",
+    "ollama",
+    "claude",
+    "gemini",
+    "codex",
+    "antigravity"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics :: Presentation",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "Pillow>=9.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Prathvi321/Ai-Chart-Toolkit"
+Repository = "https://github.com/Prathvi321/Ai-Chart-Toolkit.git"
+
+[project.scripts]
+ai-chart = "ai_chart_toolkit.tool:main"
+ai-chart-mcp = "ai_chart_toolkit.mcp_server:main"
+ai-chart-api = "ai_chart_toolkit.api_server:main"
+
+[tool.setuptools]
+packages = ["ai_chart_toolkit"]
+
+[tool.setuptools.package-data]
+ai_chart_toolkit = ["assets/*"]
